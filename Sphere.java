@@ -13,9 +13,12 @@ class Sphere
   {
     return (4/3)*Math.pi*r*r*r;
   }
-  public long Diameter()
+    public long Diameter()
   {
     return 2*r;
   }
+  public Sphere(int r)
+  {
+    this.r = r;
+  }
 }
-
