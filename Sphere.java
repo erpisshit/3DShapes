@@ -17,8 +17,4 @@ class Sphere
   {
     return 2*r;
   }
-  public Sphere(int r)
-  {
-    this.r = r;
-  }
 }
