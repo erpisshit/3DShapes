@@ -8,5 +8,10 @@ class Sphere
   public long Area()
   {
     return 4*Math.pi*r*r;
+=======
+  public Sphere(int r)
+  {
+    this.r = r;
+
   }
 }
