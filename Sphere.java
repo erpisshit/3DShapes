@@ -8,9 +8,13 @@ class Sphere
   public long Area()
   {
     return 4*Math.pi*r*r;
-  }
+    }
   public long Volume()
   {
     return (4/3)*Math.pi*r*r*r;
+  }
+  public Sphere(int r)
+  {
+    this.r = r;
   }
 }
