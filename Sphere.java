@@ -17,4 +17,10 @@ class Sphere
   {
     return 2*r;
   }
+  public long Radius()
+  {
+    long rt = r*r;
+    System.out.println((int) Math.sqrt(rt));
+    return Math.sqrt(rt);
+  }
 }
