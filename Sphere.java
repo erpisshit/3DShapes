@@ -24,3 +24,28 @@ class Sphere
     return Math.sqrt(rt);
   }
 }
+
+class Cube
+{
+	long l;
+	public Cube(long l)
+	{
+		this.l=l
+	}
+	public long area(long l)
+	{
+		// surface area
+		return 6*l*l;
+	}
+
+	public long volume(long l)
+	{
+		// volume
+		return l*l*l;
+	}
+
+	public long diagonal(long l)
+	{
+		return Math.sqrt(3*l*l);
+	}
+}
