@@ -6,13 +6,21 @@ public class Cube
   {
     this.a = a;
   }
-  public void sArea()
+  public void tArea()
   {
     long sd = this.a * this.a;
     long sd2 = 6*this.a;
-    System.out.println("Surface area of cube is "+sd2);
+    System.out.println("Total Surface area of cube is "+sd2);
   }
-  
+  public void sArea()
+  {
+    long sd = this.a * this.a;
+    System.out.println("Surface area of cube is "+sd);
+  }
+  public void volume()
+  {
+    long vol = this.a*this.a*this.a;
+  }
   public static void main(Strings[] args)
   {
     Scanner jk = new Scanner(System.in);
