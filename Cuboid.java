@@ -14,6 +14,14 @@ public class Cuboid
   {
     return a*b;
   }
+  public long Volume()
+  {
+    return this.r*this.p*this.q;
+  }
+    public long halfVolume()
+  {
+    return this.r*this.p*this.q/2;
+  }
   public static void main(Strings[] args)
   {
     Scanner jk = new Scanner(System.in);
