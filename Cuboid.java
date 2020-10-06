@@ -22,6 +22,10 @@ public class Cuboid
   {
     return this.r*this.p*this.q/2;
   }
+  public long totalSurfaceArea()
+  {
+    return 2*(this.r*this.p + this.r*this.q + this.p*this.q);
+  }
   public static void main(Strings[] args)
   {
     Scanner jk = new Scanner(System.in);
